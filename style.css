@@ -1,0 +1,65 @@
+body
+{
+  color: rgb(70, 3, 204);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer
+{
+  background-color: rgba(82, 14, 219, 0.795);
+  color: rgb(255, 234, 221);
+  padding: 2%;
+}
+
+header h1
+{
+  text-align: center;
+  font-size: 36pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+header ul
+{
+  display: flex;
+  list-style-type: none;
+  padding-left: 10%;
+  padding-right: 8%;
+}
+
+header li
+{
+  flex: 25%;
+}
+
+header a
+{
+  font-size: 14pt;
+  color: rgb(255, 234, 221);
+  text-decoration: none;
+}
+
+footer
+{
+  text-align: right;
+}
+
+section, footer
+{
+  padding: 5%;
+}
+
+section
+{
+  background-color: rgba(255, 234, 221, 0.404);
+  font-size: 14pt;
+}
+
+section hr
+{
+  display: inline-block;
+  width: 30%;
+  height: 7px;
+  background-color: rgba(82, 14, 219, 0.795);
+  margin-top: 70px;
+}
